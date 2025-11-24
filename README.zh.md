@@ -130,7 +130,7 @@ go test -v -run TestGenerateXChanges # 生成 demos-toolchain-trees.md
 |    trace    |   https://github.com/orzkratos/tracekratos-demos    |
 |  unittest   |    https://github.com/orzkratos/testkratos-demos    |
 | vue3-client |    https://github.com/orzkratos/vue3kratos-demos    |
-|    wire     |   https://github.com/orzkratos/wire2kratos-demos    |
+|    wire     |   https://github.com/orzkratos/wirekratos-demos    |
 |     zap     |    https://github.com/orzkratos/zapkratos-demos     |
 | zap-zh-hans |   https://github.com/orzkratos/zapzhkratos-demos    |
 |   migrate   |  https://github.com/orzkratos/migratekratos-demos   |

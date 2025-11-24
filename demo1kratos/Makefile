@@ -25,7 +25,7 @@ init:
 	go install github.com/go-kratos/kratos/cmd/protoc-gen-go-errors/v2@latest
 	go install github.com/google/gnostic/cmd/protoc-gen-openapi@latest
 	go install github.com/google/wire/cmd/wire@latest
-	go install github.com/orzkratos/wire2kratos/cmd/wire2orzkratos@latest
+	go install github.com/orzkratos/wirekratos/cmd/wirekratos@latest
 
 .PHONY: config
 # generate internal proto
@@ -65,7 +65,7 @@ build:
 generate:
 	go mod tidy -e
 	go get github.com/google/wire/cmd/wire@latest
-	wire2orzkratos --framework=kratos
+	wirekratos --framework=kratos
 	go generate ./...
 	go mod tidy
 	@# Remove obsolete +build tags from wire_gen.go

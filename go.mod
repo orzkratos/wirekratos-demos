@@ -1,8 +1,9 @@
-module github.com/orzkratos/demokratos
+module github.com/orzkratos/wirekratos-demos
 
 go 1.25.0
 
 require (
+	github.com/orzkratos/demokratos v0.0.28
 	github.com/orzkratos/demokratos/demo1kratos v0.0.11
 	github.com/orzkratos/demokratos/demo2kratos v0.0.11
 	github.com/stretchr/testify v1.11.1
